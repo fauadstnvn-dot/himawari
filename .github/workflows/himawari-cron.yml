@@ -24,7 +24,7 @@ jobs:
           node-version: 22
 
       - name: Cài Puppeteer
-        working-directory: himawari/cron
+        working-directory: cron
         run: |
           npm install --no-save --no-package-lock --no-audit --no-fund puppeteer@24
           npx puppeteer browsers install chrome
