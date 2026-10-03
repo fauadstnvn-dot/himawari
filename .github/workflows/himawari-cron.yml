@@ -3,7 +3,7 @@ name: Himawari cron
 on:
   schedule:
     # GitHub dùng giờ UTC và có thể chạy trễ vài phút khi máy chủ bận.
-    - cron: '*/15 * * * *'
+    - cron: '*/55 * * * *'
   workflow_dispatch:
 
 concurrency:
